@@ -14,6 +14,11 @@ class Main {
     // System.out.println("the player chose " + yesNo);
     // int numberChosen = ih.getIntegerInput("please chose a number between 10 and 12 (inclusive).", 10, 12);
     // System.out.println("the player chose " + numberChosen);
+    Scanner sc = new Scanner(System.in);
+    InputHelper plop = new InputHelper(sc);
+    String prompt = "yes or no";
+    plop.getIntegerInput(prompt,2,5);
+    
 
   }
 }

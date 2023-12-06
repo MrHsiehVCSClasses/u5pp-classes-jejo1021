@@ -58,6 +58,7 @@ public class DiceTests {
         assertAll("Default constructor and all accessors work correctly", 
             () -> assertEquals(numSides, startedDice.getSides()),
             () -> assertEquals(DEFAULT_START, startedDice.getCurrentSide()),
+            //changed og: DEFAULT_START
             () -> assertEquals(DEFAULT_COLOR, startedDice.getColor())
         );
     }
